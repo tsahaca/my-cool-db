@@ -1,9 +1,0 @@
-CREATE TABLE USERS AS SELECT * FROM CSVREAD('users-data.csv');
-
-CALL CSVWRITE('users-data.csv',
-'select
- p.firstName,
- p.lastName,
- p.email
- from USERS p',
-    'charset=UTF-8 fieldSeparator=, fieldDelimiter=');
