@@ -1,0 +1,13 @@
+= Spring Boot with h2 Database
+
+== Introduction
+[NOTE]
+====
+This is a Spring Boot + JPA + h2 DB Demo project for CRUD
+====
+
+== Project Setup
+====
+Clone and run the DemoApplication
+====
+
